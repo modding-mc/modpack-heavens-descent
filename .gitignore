@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Toolchain
+!.gitignore
+!.gitattributes
+
+# Docs
+!docs/
+!docs/**
+!README.md
+!LICENSE.md
+
+# Pack
+!resourcepack/
