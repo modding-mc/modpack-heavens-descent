@@ -9,7 +9,34 @@
 !docs/
 !docs/**
 !README.md
-!LICENSE.md
+!mkdocs.yml
 
-# Pack
-!resourcepack/
+# Scripts
+!bash/
+!bash/mount.sh
+
+# Modpack instance
+!modpack/
+!modpack/instance.cfg
+!modpack/mmc-pack.json
+!modpack/.packignore
+
+# Downloadable
+!modpack/minecraft/mods/.index
+!modpack/minecraft/resourcepacks/.index
+!modpack/minecraft/shaderpacks/.index
+
+# Scripting
+!modpack/minecraft/kubejs/
+!modpack/minecraft/kubejs/**
+!modpack/minecraft/scripts/
+!modpack/minecraft/scripts/**
+
+# Configuration
+!modpack/minecraft/config/
+
+# Resourcepacks
+!modpack/minecraft/hd_assets/
+
+# Datapacks
+!modpack/minecraft/hd_data/
