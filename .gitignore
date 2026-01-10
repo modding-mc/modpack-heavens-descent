@@ -43,8 +43,13 @@
 
 # --- Configuration ---
 !modpack/minecraft/config/
+!modpack/minecraft/config/entityculling.json
+!modpack/minecraft/config/exordium.json
+!modpack/minecraft/config/feytweaks.json
+!modpack/minecraft/config/immediatelyfast.json
 !modpack/minecraft/config/iris.properties
 !modpack/minecraft/config/lambdynlights.toml
+!modpack/minecraft/config/moreculling.toml
 !modpack/minecraft/config/sodium-extra-options.json
 !modpack/minecraft/config/sodium-options.json
 
