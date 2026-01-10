@@ -36,17 +36,65 @@
 | **Startup optimization** | | | |
 | [ThreadTweak](https://modrinth.com/mod/vSEH1ERy) | `startup` - `optimization` | 0.1.1 | Adds thread priority customization |
 | **Privacy** | | | |
+| [No Telementry]() | `` | 1.8.0 | Disables built-in telemetry |
+| [No Report Button]() | `` | 1.5.0 | Disables chat reports |
+| [No Chat Reports]() | `` | 2.2.2 | Removes account signature used by chat reporting |
+| [No Resource Pack Warnings]() | `` | 1.3.0 | Disables pack version warning |
+| [Disable Custom Worlds Advice]() | `` | 4.1 | Disables popup on world creation |
+| [Disable New World Creation Screen]() | `` | 1.1.0 | Legacy world creation menu |
+| [Yeetus Experimentus]() | `` | 2.3.1-6 | Disables experimental settings popup |
+| [Realms Button Remover]() | `` | 2.0.2 | Disables realms button |
+| [Game Menu Remove GFARB]() | `` | ver | Disables feedback and bugreport buttons |
 | [Not Enough Recipe Book](https://www.curseforge.com/projects/738663) | `removal` - `optimization` | 0.3 | Remove recipe book together with its NBT |
 | **Library mods** | | | |
 | [Fabric API](https://www.curseforge.com/projects/306612) | `api` | 0.92.2 | Extended mod loader API |
 | [Trinkets](https://www.curseforge.com/projects/341284) | `api` | 3.7.2 | Trinket slot API |
-| [Fzzy Config](https://www.curseforge.com/projects/1005914) | `api` | 0.6.9 | Config API |
-| [Cloth Config API](https://www.curseforge.com/projects/348521) | `api` | 11.1.136 | Config API |
-| [Resourceful Config](https://www.curseforge.com/projects/714059) | `api` | 2.1.3 | Config API |
 | [Fabric Language Kotlin](https://www.curseforge.com/projects/308769) | `api` | 1.12.3 | Kotlin language API |
+| [Cloth Config API](https://www.curseforge.com/projects/348521) | `api` | 11.1.136 | Config API |
+| [Fzzy Config](https://www.curseforge.com/projects/1005914) | `api` | 0.6.9 | Config API |
+| [Resourceful Config](https://www.curseforge.com/projects/714059) | `api` | 2.1.3 | Config API |
 | **Developer tools** | | | |
 | [Open Loader](https://www.curseforge.com/projects/354339) | `dev` | 19.0.4 | Global pack loading |
+| [Resource Pack Overrides](https://www.curseforge.com/projects/832644) | `` | 8.0.3 | Configurable pack loading |
+| [WITS]() | `` | 1.1.0 | Detect structures at current position |
+| **EMI** | | | |
+| [EMI](https://www.curseforge.com/projects/580555) | `emi` - `api` | 1.1.22 | Recipe and item viewer |
+| [Just Enough Items](https://www.curseforge.com/projects/238222) | `emi` - `api` | 15.20.0.106 | JEI API compatibility for EMI |
+| [EMI Enchanting](https://www.curseforge.com/projects/936713) | `emi` | 0.1.2 | EMI plugin for enchantments |
+| [EMI Loot](https://www.curseforge.com/projects/681783) | `emi` | 0.7.9 | EMI plugin for loot tables |
+| [EMI Ores](https://www.curseforge.com/projects/974009) | `emi` | 1.2 | EMI plugin for ore generation |
+| [EMI Trades](https://www.curseforge.com/projects/735523) | `emi` | 1.2.1 | EMI plugin for villager trades |
+| [EMI Professions](https://www.curseforge.com/projects/1065904) | `emi` | 1.0.4 | EMI plugin for villager workstations |
+| [Just Enough Breeding](https://www.curseforge.com/projects/899386) | `emi` | 2.5.0 | EMI plugin for breeding information |
+| **Navigation** | | | |
+| [JourneyMap]() | `navigation` - `QoL` | 5.10.3 | Worldmap, minimap and waypoints |
+| [JourneyMap Integration]() | `navigation` - `QoL` | 0.14.45 | Mod integration plugin for JourneyMap |
+| [Jade]() | `navigation` - `QoL` | 11.8.0 | Shows what your're looking at |
+| [Jade Addons]() | `navigation` - `QoL` | 5.2.3 | Mod integration plugin for Jade |
+| [Regex Search]() | `navigation` - `QoL` | 1.3.0 | Regex container search |
+| [Spyglass Improvements]() | `navigation` - `QoL` | 1.5.1 | Spyglass zoom with trinket support |
+| [Nature's Compass]() | `navigation` - `QoL` | 2.2.3 | Compass for finding biomes |
+| [Explorer's Compass]() | `navigation` - `QoL` | 2.2.3 | Compass for finding structures |
+| [Urkaz Moon Tools]() | `navigation` - `QoL` | 2.1.1-39 | Clock for detecting the moon phase |
+| **Inventory management** | | | |
+| [Inventory Essentials]() | `inventory` - `QoL` | 8.1.0 | desc |
+| [Inventory Sorter]() | `inventory` - `QoL` | 1.9.0 | desc |
+| [Stack to Nearby Chests]() | `inventory` - `QoL` | 0.5.4 | Terraria-like stacking mechanics |
+| [Stack Refill]() | `inventory` - `QoL` | 4.2 | Refill items in hand from inventory |
+| [What's that slot]() | `inventory` - `QoL` | 1.3.4 | Detect items accepted by a slot |
+| **Inventory tooltips** | | | |
+| [Adaptive Tooltips]() | `tooltip` - `QoL` | 1.3.0 | Adaptive tooltip format and line breaking |
+| [Tooltip Scroll]() | `tooltip` - `QoL` | 1.3.0 | Long tooltips are scrollable |
+| [Map Tooltip]() | `tooltip` - `QoL` | 3.0.0 | Render maps in a tooltip |
+| [Durability Tooltip]() | `tooltip` - `QoL` | 1.1.5 | Item durability tooltips |
+| [Legendary Tooltip]() | `tooltip` - `QoL` | 1.4.5 | Fancy tooltip borders |
+| [Equipment Compare]() | `tooltip` - `QoL` | 1.3.8 | RPG-like item compare |
+| **Commands** | | | |
+| [Smart Completion]() | `navigation` - `QoL` | 1.2 | Better modded command autocomplete |
+| [Suggestion Tweaker]() | `navigation` - `QoL` | 1.5.1 | Better command autocomplete filtering |
 
+
+| [Fabric Waystones]() | `navigation` | 3.3.2 | desc |
 | [name]() | `` | ver | desc |
 
 | Mod | Tags | Version | Description |
@@ -65,11 +113,24 @@ graph LR
     LambDynamicLights --> Radiant_Gear[Radiant Gear]
     Trinkets --> Radiant_Gear
     
+    Trinkets --> Spyglass_Improvements[Spyglass Improvements]
+    
     Fabric_Language_Kotlin[Fabric Language Kotlin] --> Particle_Core[Particle Core]
     Fzzy_Config --> Particle_Core
     
     Cloth_Config_API[Cloth Config API] --> More_Culling[More Culling]
     More_Culling --> More_Culling_Extra[More Culling Extra]
     
-    Resourceful_Config[Resourceful Config] -> Structure_Layout_Optimizer[Structure Layout Optimizer]
+    Resourceful_Config[Resourceful Config] --> Structure_Layout_Optimizer[Structure Layout Optimizer]
+    
+    EMI --> EMI_Enchanting[EMI Enchanting]
+    EMI --> EMI_Ores[EMI Ores]
+    EMI --> EMI_Loot[EMI Loot]
+    EMI --> EMI_Trades[EMI Trades]
+    EMI --> EMI_Professions[EMI Professions]
+    EMI --> Just Enough Breeding[Just_Enough_Breeding]
+    
+    JourneyMap --> JourneyMap_Integration[JourneyMap Integration]
+    
+    Jade --> Jade_Addons[Jade Addons]
 ```

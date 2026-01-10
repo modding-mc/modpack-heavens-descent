@@ -47,6 +47,9 @@
 !modpack/minecraft/config/openloader/advanced_options.json
 !modpack/minecraft/config/badoptimizations.txt
 !modpack/minecraft/config/c2me.toml
+!modpack/minecraft/config/emi_loot_config.toml
+!modpack/minecraft/config/emi_ores-client.json
+!modpack/minecraft/config/emi.css
 !modpack/minecraft/config/entityculling.json
 !modpack/minecraft/config/exordium.json
 !modpack/minecraft/config/ferritecore.mixin.properties

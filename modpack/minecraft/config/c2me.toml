@@ -19,20 +19,22 @@ version = 3
 #  Available variables: is_windows, is_j9vm, is_client, cpus, mem_gb
 # 
 defaultGlobalExecutorParallelismExpression = "max(2,min(if(is_windows,(cpus/1.6-2),(cpus/1.2-2)),if(is_j9vm,((mem_gb-(if(is_client,0.6,0.2)))/0.4),((mem_gb-(if(is_client,1.2,0.6)))/0.6))))"
-# (Default: 5) Configures the parallelism of global executor
+# (Default: 7) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
 
 [clientSideConfig]
+
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = false
 		# (Default: 45) Max render distance allowed in game options
 		maxViewDistance = "default"
+
 [noTickViewDistance]
 	# (Default: true) Whether to use compatibility mode to send chunks 
 	#  This may fix some mod compatibility issues
 	compatibilityMode = false
-	# (Default: 6) No-tick view distance max concurrent chunk loads 
+	# (Default: 8) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = 2
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
@@ -40,6 +42,7 @@ globalExecutorParallelism = "default"
 	ensureChunkCorrectness = "default"
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
+
 [ioSystem]
 	# (Default: true) Whether to use async chunk loading & unloading
 	async = "default"
@@ -62,8 +65,6 @@ globalExecutorParallelism = "default"
 	# Whether to use the fast reduced allocation chunk serializer
 	# (may cause incompatibility with other mods)
 	# 
-	# Set to false for the following reasons: 
-	# Incompatible with architectury@9.2.14 (*) (defined in c2me) 
 	gcFreeChunkSerializer = true
 	# (Default: true) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"
@@ -71,6 +72,7 @@ globalExecutorParallelism = "default"
 	chunkDataCacheSoftLimit = "default"
 	# (Default: 32678) Hard limit for io worker nbt cache
 	chunkDataCacheLimit = "default"
+
 [threadedWorldGen]
 	# (Default: true) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel
 	# (may cause incompatibility with other mods)
@@ -85,6 +87,7 @@ globalExecutorParallelism = "default"
 	asyncScheduling = "default"
 	# (Default: true) Whether to enable this feature
 	enabled = true
+
 [fixes]
 	# (Default: true)  
 	#  Whether to disable the shutdown hook of log4j2 on dedicated servers.
@@ -103,6 +106,7 @@ globalExecutorParallelism = "default"
 	# 
 	# 
 	enforceSafeWorldRandomAccess = "default"
+
 [generalOptimizations]
 	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
 	# Mid-tick chunk tasks is to execute chunk tasks during server tick loop  
@@ -133,6 +137,7 @@ globalExecutorParallelism = "default"
 		# This is only used when mode is set to ENHANCED
 		# 
 		delay = "default"
+
 [vanillaWorldGenOptimizations]
 	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen
 	# (may cause incompatibility with other mods)
@@ -142,3 +147,4 @@ globalExecutorParallelism = "default"
 	# (may cause incompatibility with other mods)
 	# 
 	useEndBiomeCache = "default"
+
