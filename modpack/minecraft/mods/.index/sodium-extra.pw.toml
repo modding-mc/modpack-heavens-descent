@@ -1,0 +1,17 @@
+filename = 'sodium-extra-0.5.4+mc1.20.1-build.115.jar'
+name = 'Sodium Extra'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Sodium Extra 0.5.4 for Minecraft 1.20.1'
+
+[download]
+hash = '890864a6ab5d77d57d8d757bcc31f5379b5a11b1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5063875
+project-id = 447673

@@ -25,9 +25,15 @@
 !modpack/minecraft/
 
 # Downloadable
-!modpack/minecraft/mods/.index
-!modpack/minecraft/resourcepacks/.index
-!modpack/minecraft/shaderpacks/.index
+!modpack/minecraft/mods/
+!modpack/minecraft/mods/.index/
+!modpack/minecraft/mods/.index/**
+!modpack/minecraft/resourcepacks/
+!modpack/minecraft/resourcepacks/.index/
+!modpack/minecraft/resourcepacks/.index/**
+!modpack/minecraft/shaderpacks/
+!modpack/minecraft/shaderpacks/.index/
+!modpack/minecraft/shaderpacks/.index/**
 
 # Scripting
 !modpack/minecraft/kubejs/

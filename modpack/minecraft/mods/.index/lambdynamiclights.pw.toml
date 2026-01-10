@@ -1,0 +1,17 @@
+filename = 'lambdynamiclights-2.3.2+1.20.1.jar'
+name = 'LambDynamicLights'
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.2-Snapshot' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'LambDynamicLights 2.3.2 (1.20.1)'
+
+[download]
+hash = '71b636fa74744e51ba2d248c81a38bdbfad5d43b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4748219
+project-id = 393442
