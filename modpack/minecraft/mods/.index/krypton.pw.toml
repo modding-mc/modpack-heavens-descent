@@ -1,0 +1,17 @@
+filename = 'krypton-0.2.3.jar'
+name = 'Krypton'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Krypton 0.2.3'
+
+[download]
+hash = '4d499819effd8afe811e5d93952fcc46765a00df'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4577300
+project-id = 428912

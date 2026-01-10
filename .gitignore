@@ -41,17 +41,26 @@
 !modpack/minecraft/scripts/
 !modpack/minecraft/scripts/**
 
-# --- Configuration ---
+# Configuration
 !modpack/minecraft/config/
+!modpack/minecraft/config/openloader/
+!modpack/minecraft/config/openloader/advanced_options.json
+!modpack/minecraft/config/badoptimizations.txt
+!modpack/minecraft/config/c2me.toml
 !modpack/minecraft/config/entityculling.json
 !modpack/minecraft/config/exordium.json
+!modpack/minecraft/config/ferritecore.mixin.properties
 !modpack/minecraft/config/feytweaks.json
+!modpack/minecraft/config/icterine.yml
 !modpack/minecraft/config/immediatelyfast.json
 !modpack/minecraft/config/iris.properties
 !modpack/minecraft/config/lambdynlights.toml
+!modpack/minecraft/config/modernfix-mixins.properties
 !modpack/minecraft/config/moreculling.toml
 !modpack/minecraft/config/sodium-extra-options.json
 !modpack/minecraft/config/sodium-options.json
+!modpack/minecraft/config/threadtweak.json
+!modpack/minecraft/config/vmp.properties
 
 # Resourcepacks
 !modpack/minecraft/hd_assets/

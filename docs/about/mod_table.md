@@ -20,31 +20,34 @@
 | [RadiantGear](https://www.curseforge.com/projects/602199) | `rendering` - `api` | 2.1.0 | Dynamic light for wearable items |
 | [Sodium Extra](https://www.curseforge.com/projects/447673) | `rendering` - `QoL` | 0.5.4 | Expanded settings for Sodium |
 | **Server optimization** | | | |
-| [ModernFix]() | `server` - `optimization` | 5.17.0 | General game improvements |
-| [Lithium]() | `server` - `optimization` | 0.11.2 | General server optimizations |
-| [FerriteCore]() | `server` - `optimization` | 6.0.1 | Tighter data packing to reduce RAM usage |
-| [AlternateCurrent]() | `server` - `optimization` | 1.8.0+beta.3 | Optimized redstone engine |
-| [Very Many Players]() | `server` - `optimization` | 0.2.0+beta.7.102 | High player count optimizations |
-| [BadOptimization]() | `server` - `optimization` | 2.1.1 | Small server optimizations |
-| [Krypton]() | `server` - `optimization` | 0.2.3 | Networking optimizations |
-| [Icterine]() | `server` - `optimization` | 1.3.0 | Faster advancement checking |
+| [ModernFix](https://www.curseforge.com/projects/790626) | `server` - `optimization` | 5.17.0 | General game improvements |
+| [Lithium](https://www.curseforge.com/projects/360438) | `server` - `optimization` | 0.11.4* | General server optimizations |
+| [FerriteCore](https://www.curseforge.com/projects/459857) | `server` - `optimization` | 6.0.1 | Tighter data packing to reduce RAM usage |
+| [AlternateCurrent](https://www.curseforge.com/projects/548115) | `server` - `optimization` | 1.9.0 | Optimized redstone engine |
+| [Very Many Players](https://www.curseforge.com/projects/552542) | `server` - `optimization` | 0.2.0+beta.7.102 | High player count optimizations |
+| [BadOptimization](https://www.curseforge.com/projects/949555) | `server` - `optimization` | 2.1.1 | Small server optimizations |
+| [Krypton](https://www.curseforge.com/projects/428912) | `server` - `optimization` | 0.2.3 | Networking optimizations |
+| [Icterine](https://www.curseforge.com/projects/974774) | `server` - `optimization` | 1.3.0 | Faster advancement checking |
 | **Worldgen optimization** | | | |
-| [C2ME]() | `worldgen` - `optimization` | 0.2.0+alpa.11.15 | Multi-threaded worldgen |
-| [LazyDFU]() | `worldgen` - `optimization` | 0.1.3 | Reduces redundant DataFixerUpper work |
+| [C2ME](https://www.curseforge.com/projects/533097) | `worldgen` - `optimization` | 0.2.0+alpa.11.16 | Multi-threaded worldgen |
+| [LazyDFU](https://www.curseforge.com/projects/433518) | `worldgen` - `optimization` | 0.1.3 | Reduces redundant DataFixerUpper work |
 | [Noisium]() | `worldgen` - `optimization` | 2.0.3 | Faster worldgen noise computation |
-| [Structure Layout Optimizer]() | `worldgen` - `optimization` | 1.0.10 | Faster jigsaw structure generation |
+| [Structure Layout Optimizer](https://www.curseforge.com/projects/1087831) | `worldgen` - `optimization` | 1.0.10 | Faster jigsaw structure generation |
 | **Startup optimization** | | | |
-| [ThreadTweak]() | `startup` - `optimization` | 0.1.1 | Adds thread priority customization |
+| [ThreadTweak](https://modrinth.com/mod/vSEH1ERy) | `startup` - `optimization` | 0.1.1 | Adds thread priority customization |
 | **Privacy** | | | |
-| [Not Enough Recipe Book]() | `removal` - `optimization` | 0.3 | Remove recipe book together with its NBT |
-| **API** | | | |
+| [Not Enough Recipe Book](https://www.curseforge.com/projects/738663) | `removal` - `optimization` | 0.3 | Remove recipe book together with its NBT |
+| **Library mods** | | | |
 | [Fabric API](https://www.curseforge.com/projects/306612) | `api` | 0.92.2 | Extended mod loader API |
 | [Trinkets](https://www.curseforge.com/projects/341284) | `api` | 3.7.2 | Trinket slot API |
 | [Fzzy Config](https://www.curseforge.com/projects/1005914) | `api` | 0.6.9 | Config API |
 | [Cloth Config API](https://www.curseforge.com/projects/348521) | `api` | 11.1.136 | Config API |
+| [Resourceful Config](https://www.curseforge.com/projects/714059) | `api` | 2.1.3 | Config API |
 | [Fabric Language Kotlin](https://www.curseforge.com/projects/308769) | `api` | 1.12.3 | Kotlin language API |
+| **Developer tools** | | | |
+| [Open Loader](https://www.curseforge.com/projects/354339) | `dev` | 19.0.4 | Global pack loading |
 
-| [name]() | `` | desc |
+| [name]() | `` | ver | desc |
 
 | Mod | Tags | Version | Description |
 | - | - | - | - |
@@ -67,4 +70,6 @@ graph LR
     
     Cloth_Config_API[Cloth Config API] --> More_Culling[More Culling]
     More_Culling --> More_Culling_Extra[More Culling Extra]
+    
+    Resourceful_Config[Resourceful Config] -> Structure_Layout_Optimizer[Structure Layout Optimizer]
 ```

@@ -1,0 +1,10 @@
+{
+  "resourcePacks": {
+    "enabled": true,
+    "additionalFolders": ["hd_assets"]
+  },
+  "dataPacks": {
+    "enabled": true,
+    "additionalFolders": ["hd_data"]
+  }
+}
