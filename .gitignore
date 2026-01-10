@@ -8,6 +8,8 @@
 # Docs
 !docs/
 !docs/**
+!dev/
+!dev/**
 !README.md
 !mkdocs.yml
 
@@ -20,6 +22,7 @@
 !modpack/instance.cfg
 !modpack/mmc-pack.json
 !modpack/.packignore
+!modpack/minecraft/
 
 # Downloadable
 !modpack/minecraft/mods/.index
@@ -32,8 +35,12 @@
 !modpack/minecraft/scripts/
 !modpack/minecraft/scripts/**
 
-# Configuration
+# --- Configuration ---
 !modpack/minecraft/config/
+!modpack/minecraft/config/iris.properties
+!modpack/minecraft/config/lambdynlights.toml
+!modpack/minecraft/config/sodium-extra-options.json
+!modpack/minecraft/config/sodium-options.json
 
 # Resourcepacks
 !modpack/minecraft/hd_assets/
