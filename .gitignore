@@ -43,8 +43,12 @@
 
 # Configuration
 !modpack/minecraft/config/
+!modpack/minecraft/config/jade/
+!modpack/minecraft/config/jade/**
 !modpack/minecraft/config/openloader/
 !modpack/minecraft/config/openloader/advanced_options.json
+!modpack/minecraft/config/spyglass-improvements/
+!modpack/minecraft/config/spyglass-improvements/settings.json
 !modpack/minecraft/config/badoptimizations.txt
 !modpack/minecraft/config/c2me.toml
 !modpack/minecraft/config/emi_loot_config.toml
@@ -57,13 +61,21 @@
 !modpack/minecraft/config/icterine.yml
 !modpack/minecraft/config/immediatelyfast.json
 !modpack/minecraft/config/iris.properties
+!modpack/minecraft/config/jade.json
 !modpack/minecraft/config/lambdynlights.toml
+!modpack/minecraft/config/midnightlib.json
 !modpack/minecraft/config/modernfix-mixins.properties
+!modpack/minecraft/config/modmenu.json
 !modpack/minecraft/config/moreculling.toml
+!modpack/minecraft/config/re_search.json
+!modpack/minecraft/config/resourcepackoverrides.json
 !modpack/minecraft/config/sodium-extra-options.json
 !modpack/minecraft/config/sodium-options.json
 !modpack/minecraft/config/threadtweak.json
 !modpack/minecraft/config/vmp.properties
+!modpack/minecraft/journeymap/
+!modpack/minecraft/journeymap/config/
+!modpack/minecraft/journeymap/config/**
 
 # Resourcepacks
 !modpack/minecraft/hd_assets/

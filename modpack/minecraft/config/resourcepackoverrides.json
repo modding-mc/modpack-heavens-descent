@@ -1,0 +1,17 @@
+{
+  "schema_version": "2",
+  "default_packs": [
+    "file/Subtle Enchantment Glint v1.0.zip"
+  ],
+  "pack_overrides": {
+    "1": [
+      "vanilla",
+      "programmer_art",
+      "high_contrast",
+      "fabric"
+    ],
+    "$$1": {
+      "hidden": true
+    }
+  }
+}

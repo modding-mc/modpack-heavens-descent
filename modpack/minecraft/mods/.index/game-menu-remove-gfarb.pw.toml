@@ -1,0 +1,17 @@
+filename = 'gamemenuremovegfarb-fabric-mc1.19.4-2.1.2.jar'
+name = 'Game Menu Remove GFARB'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'GameMenuRemoveGFARB-1.19.4-2.1.2-Fabric'
+
+[download]
+hash = '34832dcf3cb85993c066a53a2d4a2190f191c10e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4664629
+project-id = 420519
