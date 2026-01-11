@@ -50,12 +50,25 @@
 | [Fabric API](https://www.curseforge.com/projects/306612) | `api` | 0.92.2 | Extended mod loader API |
 | [Architecture API](https://www.curseforge.com/projects/419699) | `api` | 9.2.14 | Multi-platform mod API |
 | [Balm](https://www.curseforge.com/projects/500525) | `api` | 7.2.2 | Multi-platform mod API |
+| [Collective](https://www.curseforge.com/minecraft/mc-mods/collective) | `api` | 7.57 | Multi-platform mod API |
 | [Fabric Language Kotlin](https://www.curseforge.com/projects/308769) | `api` | 1.12.3 | Kotlin language API |
+| [Rhino](https://www.curseforge.com/projects/416294) | `api` | 2001.2.3-10 | JS interpreter |
+| [GeckoLib](https://www.curseforge.com/projects/388172) | `api` | 4.7.4 | Entity animation API |
+| [Faux Custom Entity Data](https://www.curseforge.com/projects/575305) | `api` | 6.0.1 | Persistent entity data API |
 | [Cloth Config API](https://www.curseforge.com/projects/348521) | `api` | 11.1.136 | Config API |
+| [Forge Config API Port](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port) | `api` | 8.0.0 | Config API |
 | [Fzzy Config](https://www.curseforge.com/projects/1005914) | `api` | 0.6.9 | Config API |
 | [Resourceful Config](https://www.curseforge.com/projects/714059) | `api` | 2.1.3 | Config API |
 | [Trinkets](https://www.curseforge.com/projects/341284) | `api` | 3.7.2 | Trinket slot API |
+| [Accessories](https://www.curseforge.com/minecraft/mc-mods/accessories) | `api` | 1.0.0-beta.47 | Accessory slot API |
+| [Accessories Trinkets Compat Layer](https://www.curseforge.com/minecraft/mc-mods/accessories-tc-layer) | `api` | 3.8.1-beta.14 | Slot API compatibility |
 | **Developer tools** | | | |
+| [KubeJS](https://www.curseforge.com/projects/238086) | `dev` - `api` | 2001.5.5-16 | JS modpack scripting framework |
+| [LootJS](https://www.curseforge.com/projects/570630) | `dev` | 2.13.0 | Loot modification hooks for KubeJS |
+| [EntityJS](https://www.curseforge.com/projects/967617) | `dev` | 0.2.4.1 | Entity modification hooks for KubeJS |
+| [CraftTweaker](https://www.curseforge.com/projects/239197) | `dev` - `api` | 14.0.38 | ZenScript modpack scripting framework |
+| [Spark](https://www.curseforge.com/minecraft/mc-mods/spark) | `dev` - `optimization` | 1.10.53 | Integrated performance profiler |
+| [BetterF3](https://www.curseforge.com/minecraft/mc-mods/betterf3) | `dev` - `gui` | 7.0.2 | More readable debug GUI |
 | [Mod Menu](https://www.curseforge.com/projects/308702) | `dev` - `gui` | 7.2.2 | In-game mod browser |
 | [Open Loader](https://www.curseforge.com/projects/354339) | `dev` | 19.0.4 | Global pack loading |
 | [Resource Pack Overrides](https://www.curseforge.com/projects/832644) | `dev` | 8.0.3 | Configurable pack loading |
@@ -81,9 +94,9 @@
 | [Urkaz Moon Tools](https://www.curseforge.com/projects/362825) | `navigation` - `QoL` | 2.1.1-39 | Clock for detecting the moon phase |
 | **Inventory management** | | | |
 | [Inventory Essentials](https://www.curseforge.com/minecraft/mc-mods/inventory-essentials) | `inventory` - `QoL` | 8.1.0 | desc |
-| [Inventory Sorter]() | `inventory` - `QoL` | 1.9.0 | desc |
-| [Stack to Nearby Chests]() | `inventory` - `QoL` | 0.5.4 | Terraria-like stacking mechanics |
-| [Stack Refill]() | `inventory` - `QoL` | 4.2 | Refill items in hand from inventory |
+| [Inventory Sorting](https://www.curseforge.com/projects/325471) | `inventory` - `QoL` | 1.9.0 | desc |
+| [Stack to Nearby Chests](https://www.curseforge.com/minecraft/mc-mods/stack-to-nearby-chests) | `inventory` - `QoL` | 0.5.4 | Terraria-like stacking mechanics |
+| [Stack Refill](https://www.curseforge.com/minecraft/mc-mods/stack-refill) | `inventory` - `QoL` | 4.2 | Refill items in hand from inventory |
 | [What's that slot]() | `inventory` - `QoL` | 1.3.4 | Detect items accepted by a slot |
 | **Inventory tooltips** | | | |
 | [Adaptive Tooltips]() | `tooltip` - `QoL` | 1.3.0 | Adaptive tooltip format and line breaking |
@@ -95,7 +108,7 @@
 | **Commands** | | | |
 | [Smart Completion]() | `navigation` - `QoL` | 1.2 | Better modded command autocomplete |
 | [Suggestion Tweaker]() | `navigation` - `QoL` | 1.5.1 | Better command autocomplete filtering |
-
+| **Testing** | | | |
 
 | [Fabric Waystones]() | `navigation` | 3.3.2 | desc |
 | [name]() | `` | ver | desc |
@@ -113,27 +126,52 @@ graph LR
     Sodium --> Indium
     Sodium --> Sodium_Extra[Sodium Extra]
     
-    LambDynamicLights --> Radiant_Gear[Radiant Gear]
-    Trinkets --> Radiant_Gear
-    
-    Trinkets --> Spyglass_Improvements[Spyglass Improvements]
-    
     Fabric_Language_Kotlin[Fabric Language Kotlin] --> Particle_Core[Particle Core]
     Fzzy_Config --> Particle_Core
     
     Cloth_Config_API[Cloth Config API] --> More_Culling[More Culling]
     More_Culling --> More_Culling_Extra[More Culling Extra]
-    
+```
+
+```mermaid
+graph LR
     Resourceful_Config[Resourceful Config] --> Structure_Layout_Optimizer[Structure Layout Optimizer]
     
+    JourneyMap --> JourneyMap_Integration[JourneyMap Integration]
+    
+    Faux_Custom_Entity_Data[Faux Custom Entity Data] --> CraftTweaker
+    
+    Jade --> Jade_Addons[Jade Addons]
+    
+    Forge_Config_API_Port[Forge Config API Port] --> xxx
+```
+
+```mermaid
+graph LR
     EMI --> EMI_Enchanting[EMI Enchanting]
     EMI --> EMI_Ores[EMI Ores]
     EMI --> EMI_Loot[EMI Loot]
     EMI --> EMI_Trades[EMI Trades]
     EMI --> EMI_Professions[EMI Professions]
     EMI --> Just_Enough_Breeding[Just_Enough_Breeding]
+```
+
+```mermaid
+graph LR    
+    LambDynamicLights --> Radiant_Gear[Radiant Gear]
+    Trinkets --> Radiant_Gear
     
-    JourneyMap --> JourneyMap_Integration[JourneyMap Integration]
+    Trinkets --> Spyglass_Improvements[Spyglass Improvements]
     
-    Jade --> Jade_Addons[Jade Addons]
+    Accessories --> Accessories_Trinkets_Compat_Layer[Accessories Trinkets Compat Layer]
+    Trinkets --> Accessories_Trinkets_Compat_Layer
+```
+
+```mermaid
+graph LR    
+    Rhino --> KubeJS
+    KubeJS --> LootJS
+    KubeJS --> EntityJS
+    
+    GeckoLib --> EntityJS
 ```

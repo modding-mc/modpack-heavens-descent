@@ -1,0 +1,17 @@
+filename = 'accessories-fabric-1.0.0-beta.47+1.20.1.jar'
+name = 'Accessories'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[1.20.1] Accessories [Fabric] - 1.0.0 Beta 47'
+
+[download]
+hash = 'b2290b215a8f7e9a2676b87ac1192271eae7467d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6304691
+project-id = 938917
