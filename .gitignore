@@ -19,84 +19,77 @@
 
 # Modpack instance
 !modpack/
-!modpack/instance.cfg
-!modpack/mmc-pack.json
-!modpack/.packignore
-!modpack/minecraft/
+!modpack/manifest.json
+!modpack/modlist.html
+!modpack/overrides/
 
-# Downloadable
-!modpack/minecraft/mods/
-!modpack/minecraft/mods/.index/
-!modpack/minecraft/mods/.index/**
-!modpack/minecraft/resourcepacks/
-!modpack/minecraft/resourcepacks/.index/
-!modpack/minecraft/resourcepacks/.index/**
-!modpack/minecraft/shaderpacks/
-!modpack/minecraft/shaderpacks/.index/
-!modpack/minecraft/shaderpacks/.index/**
+# Overrides
+!modpack/overrides/mods/
+!modpack/overrides/resourcepacks/
+!modpack/overrides/shaderpacks/
 
 # Scripting (KubeJS)
-!modpack/minecraft/kubejs/
-!modpack/minecraft/kubejs/config/
-!modpack/minecraft/kubejs/config/client.properties
-!modpack/minecraft/kubejs/config/common.properties
-!modpack/minecraft/kubejs/config/defaultoptions.txt
-!modpack/minecraft/kubejs/config/icon.png
-!modpack/minecraft/kubejs/config/packicon.png
-!modpack/minecraft/kubejs/README.txt
+!modpack/overrides/kubejs/
+!modpack/overrides/kubejs/config/
+!modpack/overrides/kubejs/config/client.properties
+!modpack/overrides/kubejs/config/common.properties
+!modpack/overrides/kubejs/config/defaultoptions.txt
+!modpack/overrides/kubejs/config/icon.png
+!modpack/overrides/kubejs/config/packicon.png
+!modpack/overrides/kubejs/README.txt
 
 # Scripting (CraftTweaker)
-!modpack/minecraft/scripts/
-!modpack/minecraft/scripts/**
+!modpack/overrides/scripts/
+!modpack/overrides/scripts/**
 
 # Configuration (directories)
-!modpack/minecraft/config/
-!modpack/minecraft/config/inventorysorter/
-!modpack/minecraft/config/inventorysorter/config.json5
-!modpack/minecraft/config/jade/
-!modpack/minecraft/config/jade/**
-!modpack/minecraft/config/openloader/
-!modpack/minecraft/config/openloader/advanced_options.json
-!modpack/minecraft/config/spyglass-improvements/
-!modpack/minecraft/config/spyglass-improvements/settings.json
-!modpack/minecraft/config/stack-to-nearby-chests/
-!modpack/minecraft/config/stack-to-nearby-chests/mod-options.json
+!modpack/overrides/config/
+!modpack/overrides/config/inventorysorter/
+!modpack/overrides/config/inventorysorter/config.json5
+!modpack/overrides/config/jade/
+!modpack/overrides/config/jade/**
+!modpack/overrides/config/openloader/
+!modpack/overrides/config/openloader/advanced_options.json
+!modpack/overrides/config/spyglass-improvements/
+!modpack/overrides/config/spyglass-improvements/settings.json
+!modpack/overrides/config/stack-to-nearby-chests/
+!modpack/overrides/config/stack-to-nearby-chests/mod-options.json
 
 # Configuration (files)
-!modpack/minecraft/config/accessories.json5
-!modpack/minecraft/config/badoptimizations.txt
-!modpack/minecraft/config/betterf3.json
-!modpack/minecraft/config/c2me.toml
-!modpack/minecraft/config/emi_loot_config.toml
-!modpack/minecraft/config/emi_ores-client.json
-!modpack/minecraft/config/emi.css
-!modpack/minecraft/config/entityculling.json
-!modpack/minecraft/config/exordium.json
-!modpack/minecraft/config/ferritecore.mixin.properties
-!modpack/minecraft/config/feytweaks.json
-!modpack/minecraft/config/icterine.yml
-!modpack/minecraft/config/immediatelyfast.json
-!modpack/minecraft/config/iris.properties
-!modpack/minecraft/config/jade.json
-!modpack/minecraft/config/lambdynlights.toml
-!modpack/minecraft/config/midnightlib.json
-!modpack/minecraft/config/modernfix-mixins.properties
-!modpack/minecraft/config/modmenu.json
-!modpack/minecraft/config/moreculling.toml
-!modpack/minecraft/config/re_search.json
-!modpack/minecraft/config/resourcepackoverrides.json
-!modpack/minecraft/config/sodium-extra-options.json
-!modpack/minecraft/config/sodium-options.json
-!modpack/minecraft/config/threadtweak.json
-!modpack/minecraft/config/vmp.properties
+!modpack/overrides/config/accessories.json5
+!modpack/overrides/config/badoptimizations.txt
+!modpack/overrides/config/betterf3.json
+!modpack/overrides/config/c2me.toml
+!modpack/overrides/config/emi_loot_config.toml
+!modpack/overrides/config/emi_ores-client.json
+!modpack/overrides/config/emi.css
+!modpack/overrides/config/entityculling.json
+!modpack/overrides/config/exordium.json
+!modpack/overrides/config/ferritecore.mixin.properties
+!modpack/overrides/config/feytweaks.json
+!modpack/overrides/config/icterine.yml
+!modpack/overrides/config/immediatelyfast.json
+!modpack/overrides/config/iris.properties
+!modpack/overrides/config/jade.json
+!modpack/overrides/config/lambdynlights.toml
+!modpack/overrides/config/midnightlib.json
+!modpack/overrides/config/modernfix-mixins.properties
+!modpack/overrides/config/modmenu.json
+!modpack/overrides/config/moreculling.toml
+!modpack/overrides/config/re_search.json
+!modpack/overrides/config/resourcepackoverrides.json
+!modpack/overrides/config/sodium-extra-options.json
+!modpack/overrides/config/sodium-options.json
+!modpack/overrides/config/threadtweak.json
+!modpack/overrides/config/vmp.properties
 
 # Configuration (outside of main folder)
-!modpack/minecraft/journeymap/
-!modpack/minecraft/journeymap/config/
-!modpack/minecraft/journeymap/config/**
+!modpack/overrides/journeymap/
+!modpack/overrides/journeymap/config/
+!modpack/overrides/journeymap/config/**
 
 # Resourcepacks
-!modpack/minecraft/hd_assets/
+!modpack/overrides/hd_assets/
 
 # Datapacks
-!modpack/minecraft/hd_data/
+!modpack/overrides/hd_data/
